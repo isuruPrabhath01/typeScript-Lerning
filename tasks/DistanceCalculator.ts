@@ -47,6 +47,6 @@ btn_element.addEventListener('click',() =>{
 
        let distance = calcDistance(location1,location2);
 
-        result_element.innerText =`${distance.toFixed(2)}`;
+        result_element.innerText =`${distance.toFixed(2)}," KM"`;
     }
 )

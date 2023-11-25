@@ -14,6 +14,7 @@ class Person{
     }
 }
 
+
 let person1 = new Person("Isuru", 22, "200123601322");
 console.log(person1);
 person1.name="Prabhath";
