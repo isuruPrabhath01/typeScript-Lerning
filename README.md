@@ -12,3 +12,4 @@ TypeScript
 9. Type Gathering(tasks.7_TypeCreationInTS.ts)
 10. Create Classes(tasks.8_CreateClassesInTS.ts)
 11. Tuples(tasks.9_TupleInTS.ts)
+12. FixedDepositTask(tasks.FixedDeposits)
