@@ -9,4 +9,4 @@ TypeScript
 6. Object handling in TS(task.5_ObjectHandlingInTS.ts)
 7. Distance Calculator(tasks.DistanceCalculator.ts)
 8. Arrays Handling(tasks.6_ArraysHandlingInTS.ts)
-9. Type Gathering(tasks.7_TypeInTS.ts)
+9. Type Gathering(tasks.7_TypeCreationInTS.ts)
