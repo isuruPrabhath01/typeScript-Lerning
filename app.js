@@ -1,8 +1,5 @@
-function sum(num1, num2) {
-    return num1 + num2;
+function sendSum(num1, num2, name, isWithName) {
+    return isWithName ? "hi ".concat(name, " sum is ").concat(num1 + num2) : 'not valid..!!';
 }
-function sumString(num1, num2) {
-    return num1 + num2;
-}
-console.log("sum of 10 + 20 : " + sum(10, 20));
-console.log("sum of String 10 + 20 : " + sumString("10", 20));
+console.log(sendSum(10, 20, "isuru", true));
+console.log(sendSum(10, 20, "isuru", false));
