@@ -42,11 +42,11 @@ btn_element.addEventListener('click',() =>{
         let lon2 = location2LogInputElement.value;
         let lat2 = location2LatInputElement.value;
 
-        let location1 = {log : +lon1 , lat : +lat1};
-        let location2 = {log : +lon2 , lat : +lat2};
+        let location1 = {lon : +lon1 , lat : +lat1};
+        let location2 = {lon : +lon2 , lat : +lat2};
 
-       // let distance = calcDistance(location1,location2);
+       let distance = calcDistance(location1,location2);
 
-        //result_element.innerText =`${distance.toFixed(2)}`;
+        result_element.innerText =`${distance.toFixed(2)}`;
     }
 )
